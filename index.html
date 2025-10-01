@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지혜학당 - 개인정보 처리방침</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #764ba2;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        h3 {
+            color: #667eea;
+            margin-top: 25px;
+        }
+        .app-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .app-info strong {
+            color: #764ba2;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #e9ecef;
+        }
+        th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+        .contact-info {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        .privacy-rights {
+            background: #d1ecf1;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #17a2b8;
+            margin: 20px 0;
+        }
+        ul, ol {
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e9ecef;
+            color: #6c757d;
+        }
+        .language-toggle {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .language-toggle button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .language-toggle button:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+        }
+        .language-toggle button.active {
+            background: #764ba2;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="language-toggle">
+            <button onclick="showKorean()" id="ko-btn" class="active">한국어</button>
+            <button onclick="showEnglish()" id="en-btn">English</button>
+        </div>
+
+        <div id="korean-content">
+            <h1>지혜학당 개인정보 처리방침</h1>
+
+            <div class="app-info">
+                <strong>앱명:</strong> 지혜학당 (Wisdom Academy)<br>
+                <strong>최종 업데이트:</strong> 2025년 9월
+            </div>
+
+            <h2>1. 개인정보 처리방침 개요</h2>
+            <p>지혜학당(이하 "본 앱")은 아이들의 언어 학습을 돕는 교육용 게임 앱입니다. 본 개인정보 처리방침은 본 앱이 수집, 사용, 보호하는 개인정보에 관한 사항을 설명합니다.</p>
+
+            <h2>2. 수집하는 개인정보의 항목</h2>
+            <h3>2.1 필수 수집 정보</h3>
+            <ul>
+                <li>기기 정보 (기기 모델, OS 버전, 광고 ID)</li>
+                <li>게임 진행 데이터 (점수, 레벨, 달성도)</li>
+                <li>앱 사용 통계 (게임 플레이 시간, 기능 사용 현황)</li>
+            </ul>
+
+            <h3>2.2 선택 수집 정보</h3>
+            <ul>
+                <li>닉네임 (사용자가 직접 설정)</li>
+                <li>랭킹 데이터 (순위표 참여 시)</li>
+            </ul>
+
+            <h2>3. 개인정보의 처리 목적</h2>
+            <ul>
+                <li>게임 진행상황 저장 및 복원</li>
+                <li>개인 맞춤형 학습 콘텐츠 제공</li>
+                <li>랭킹 시스템 운영</li>
+                <li>앱 사용 패턴 분석을 통한 서비스 개선</li>
+                <li>맞춤형 광고 제공</li>
+            </ul>
+
+            <h2>4. 개인정보의 보유기간</h2>
+            <table>
+                <tr>
+                    <th>데이터 유형</th>
+                    <th>보유기간</th>
+                </tr>
+                <tr>
+                    <td>게임 데이터</td>
+                    <td>앱 삭제 시까지</td>
+                </tr>
+                <tr>
+                    <td>통계 데이터</td>
+                    <td>수집일로부터 1년</td>
+                </tr>
+                <tr>
+                    <td>광고 관련 데이터</td>
+                    <td>관련 법령에 따른 기간</td>
+                </tr>
+            </table>
+            
+            <h2>5. 제3자 제공</h2>
+            <table>
+                <tr>
+                    <th>제공 대상</th>
+                    <th>제공 목적</th>
+                    <th>제공 항목</th>
+                </tr>
+                <tr>
+                    <td>Google (Firebase, AdMob)</td>
+                    <td>클라우드 데이터 저장, 광고 서비스</td>
+                    <td>기기 정보, 광고 ID, 사용 통계</td>
+                </tr>
+            </table>
+
+            <div class="privacy-rights">
+                <h3>정보주체의 권리</h3>
+                <ul>
+                    <li>개인정보 처리현황 통지 요구권</li>
+                    <li>개인정보 정정·삭제 요구권</li>
+                    <li>개인정보 처리정지 요구권</li>
+                </ul>
+            </div>
+
+            <div class="contact-info">
+                <h3>개인정보 보호책임자</h3>
+                <p><strong>담당자:</strong> 노순형<br>
+                <strong>이메일:</strong> rhsoh1@gmail.com<br>
+                <strong>전화번호:</strong> 01071201751</p>
+                <p>개인정보 처리에 관한 문의, 불만, 신고 등이 있으시면 언제든지 연락주시기 바랍니다.</p>
+            </div>
+        </div>
+
+        <div id="english-content" style="display: none;">
+            <h1>Wisdom Academy Privacy Policy</h1>
+
+            <div class="app-info">
+                <strong>App Name:</strong> Wisdom Academy (지혜학당)<br>
+                <strong>Last Updated:</strong> September 2025
+            </div>
+
+            <h2>1. Overview</h2>
+            <p>Wisdom Academy is an educational game app designed to help children learn languages. This Privacy Policy explains how we collect, use, and protect personal information in our app.</p>
+
+            <h2>2. Information We Collect</h2>
+            <h3>2.1 Required Information</h3>
+            <ul>
+                <li>Device information (device model, OS version, advertising ID)</li>
+                <li>Game progress data (scores, levels, achievements)</li>
+                <li>App usage statistics</li>
+            </ul>
+
+            <h3>2.2 Optional Information</h3>
+            <ul>
+                <li>Nickname (user-provided)</li>
+                <li>Ranking data (when participating in leaderboards)</li>
+            </ul>
+
+            <h2>3. How We Use Information</h2>
+            <ul>
+                <li>Save and restore game progress</li>
+                <li>Provide personalized learning content</li>
+                <li>Operate ranking systems</li>
+                <li>Analyze usage patterns for service improvement</li>
+                <li>Provide relevant advertisements</li>
+            </ul>
+            
+            <h2>4. Data Sharing</h2>
+            <table>
+                <tr>
+                    <th>Third Party</th>
+                    <th>Purpose</th>
+                    <th>Information Shared</th>
+                </tr>
+                <tr>
+                    <td>Google (Firebase, AdMob)</td>
+                    <td>Cloud storage, advertising services</td>
+                    <td>Device info, advertising ID, usage statistics</td>
+                </tr>
+            </table>
+
+            <div class="privacy-rights">
+                <h3>Your Rights</h3>
+                <ul>
+                    <li>Access your personal information</li>
+                    <li>Correct or delete your personal information</li>
+                    <li>Object to processing of your personal information</li>
+                </ul>
+            </div>
+
+            <div class="contact-info">
+                <h3>Privacy Officer</h3>
+                <p><strong>Name:</strong> [Roh]<br>
+                <strong>Email:</strong> [rhsoh1@gmail.com]<br>
+                <strong>Phone:</strong> [01071201751]</p>
+                <p>If you have any questions, complaints, or concerns about our privacy practices, please contact us.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 지혜학당. All rights reserved.</p>
+            <p>본 정책은 2025년 9월부터 적용됩니다.</p>
+        </div>
+    </div>
+
+    <script>
+        function showKorean() {
+            document.getElementById('korean-content').style.display = 'block';
+            document.getElementById('english-content').style.display = 'none';
+            document.getElementById('ko-btn').classList.add('active');
+            document.getElementById('en-btn').classList.remove('active');
+        }
+
+        function showEnglish() {
+            document.getElementById('korean-content').style.display = 'none';
+            document.getElementById('english-content').style.display = 'block';
+            document.getElementById('ko-btn').classList.remove('active');
+            document.getElementById('en-btn').classList.add('active');
+        }
+    </script>
+</body>
+
+</html>
+
